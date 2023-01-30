@@ -30,7 +30,7 @@ class LoginPage extends StatelessWidget {
                     Icons.email,
                     color: Colors.black,
                   ),
-                  label: Text('Digite seu e-mail'),
+                  label: Text('Email'),
                   filled: true,
                   fillColor: Color(0xFFECECEC),
                 ),
@@ -46,7 +46,7 @@ class LoginPage extends StatelessWidget {
                     Icons.lock,
                     color: Colors.black,
                   ),
-                  label: Text('Digite a senha'),
+                  label: Text('Password'),
                   filled: true,
                   fillColor: Color(0xFFECECEC),
                 ),
@@ -90,7 +90,7 @@ class LoginPage extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   const Text(
-                    'Novo por aqui?',
+                    'Not a member?',
                     style: TextStyle(
                       color: Colors.white,
                     ),
@@ -99,7 +99,7 @@ class LoginPage extends StatelessWidget {
                     onPressed: () async =>
                         await Navigator.pushNamed(context, '/'),
                     child: const Text(
-                      'Registre-se!',
+                      'Signup now!',
                       style: TextStyle(
                         color: Color(0xFF8AB1EC),
                       ),

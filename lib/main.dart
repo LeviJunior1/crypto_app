@@ -1,4 +1,3 @@
-import 'package:crypto_app/pages/login_page.dart';
 import 'package:crypto_app/routes/route.dart';
 import 'package:flutter/material.dart';
 
