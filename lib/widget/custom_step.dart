@@ -26,7 +26,13 @@ class CustomStep extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Image.asset(img!),
+              LimitedBox(
+                maxHeight: 250,
+                child: Image.asset(
+                  img!,
+                  fit: BoxFit.cover,
+                ),
+              ),
               const SizedBox(
                 height: 72,
               ),

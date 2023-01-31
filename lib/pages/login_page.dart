@@ -17,9 +17,12 @@ class LoginPage extends StatelessWidget {
         child: Center(
           child: ListView(
             shrinkWrap: true,
-            padding: const EdgeInsets.only(left: 80, right: 80),
+            padding: const EdgeInsets.only(left: 40, right: 40),
             children: [
-              SvgPicture.asset(undrawLogin),
+              SvgPicture.asset(
+                undrawLogin,
+                width: 300,
+              ),
               const SizedBox(
                 height: 40,
               ),
@@ -80,11 +83,11 @@ class LoginPage extends StatelessWidget {
                 height: 30,
               ),
               const Divider(
-                height: 20,
+                height: 5,
                 color: Color(0xFFECECEC),
               ),
               const SizedBox(
-                height: 14,
+                height: 16,
               ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
