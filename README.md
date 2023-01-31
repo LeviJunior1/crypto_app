@@ -10,7 +10,8 @@ Estudo de caso de um app de criptomoeda.
  <a href="#status-do-projeto">Status do Projeto</a> • 
  <a href="#demonstração-da-aplicação">Demonstração da aplicação</a> •
  <a href="#pré-requisitos">Pré-requisitos</a> •
- <a href="#tecnologias">Tecnologias</a> • 
+ <a href="#tecnologias">Tecnologias</a> •
+ <a href="#referências">Referências</a> •
  <a href="#autor">Autor</a>
 </p>
 
@@ -45,7 +46,6 @@ $ flutter pub get
 # Execute a aplicação em modo de desenvolvimento
 $ flutter run lib/main.dart
 
-# O projeto inicializará e o localhost é indicado no terminal.
 # Pronto agora é só acessar!!
 ```
 
@@ -65,9 +65,9 @@ Foi usado como referência o projeto:
 
 - [Autor](https://dribbble.com/outcrowd)
 
-<cite>The project is just a case study in flutter all rights reserved to the author!</cite>
+<cite>The project is just a case study in flutter all rights reserved to the [author](https://dribbble.com/outcrowd).</cite>
 
-<cite>O projeto apenas é um estudo de caso em flutter todos os direitos reservados ao autor!</cite>
+<cite>O projeto apenas é um estudo de caso em flutter todos os direitos reservados ao [autor](https://dribbble.com/outcrowd).</cite>
 
 ## Autor
 
